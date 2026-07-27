@@ -1,0 +1,53 @@
+{
+  "titleTa": "புகைப்படங்களும் காணொளிகளும்",
+  "titleEn": "Photos & Videos",
+  "subtitleTa": "திருக்கோயில் தரிசனங்களும் திருவிழா நினைவுகளும்",
+  "photos": [
+    {
+      "id": "photo-1",
+      "src": "/images/gallery-1.svg",
+      "captionTa": "கருவறை தரிசனம்",
+      "captionEn": "Sanctum darshan"
+    },
+    {
+      "id": "photo-2",
+      "src": "/images/gallery-2.svg",
+      "captionTa": "விளக்கு வழிபாடு",
+      "captionEn": "Lamp worship"
+    },
+    {
+      "id": "photo-3",
+      "src": "/images/gallery-3.svg",
+      "captionTa": "திருவிழா அலங்காரம்",
+      "captionEn": "Festival alankaram"
+    },
+    {
+      "id": "photo-4",
+      "src": "/images/gallery-4.svg",
+      "captionTa": "கோயில் வாயில்",
+      "captionEn": "Temple entrance"
+    },
+    {
+      "id": "photo-5",
+      "src": "/images/gallery-5.svg",
+      "captionTa": "உற்சவ ஊர்வலம்",
+      "captionEn": "Festival procession"
+    },
+    {
+      "id": "photo-6",
+      "src": "/images/gallery-6.svg",
+      "captionTa": "பக்தர் கூட்டம்",
+      "captionEn": "Devotee gathering"
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-1",
+      "titleTa": "திருவிழா காணொளி",
+      "titleEn": "Festival video",
+      "url": "",
+      "noteTa": "உண்மையான YouTube/Vimeo embed URL-ஐ gallery.json-இல் சேர்க்கவும்.",
+      "noteEn": "Add a real YouTube or Vimeo embed URL in gallery.json."
+    }
+  ]
+}

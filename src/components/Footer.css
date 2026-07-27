@@ -1,0 +1,52 @@
+.site-footer {
+  margin-top: auto;
+  background: var(--temple-deep);
+  color: var(--oil-amber);
+  padding: var(--space-xl) var(--space-md) var(--space-lg);
+  border-top: 1px solid rgba(201, 162, 39, 0.35);
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.footer-brand h2 {
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  color: var(--white);
+}
+
+.footer-brand .en-caption {
+  color: rgba(242, 230, 201, 0.65);
+}
+
+.footer-place {
+  margin-top: var(--space-sm);
+  color: rgba(242, 230, 201, 0.85);
+}
+
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md) var(--space-xl);
+  font-size: 0.95rem;
+}
+
+.footer-meta a {
+  color: var(--temple-gold-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-meta a:hover {
+  color: var(--white);
+}
+
+.footer-bottom {
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(201, 162, 39, 0.2);
+  font-size: 0.85rem;
+  color: rgba(242, 230, 201, 0.55);
+}

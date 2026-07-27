@@ -1,0 +1,113 @@
+import { useEffect, useState } from "react";
+import galleryData from "../content/gallery.json";
+import { Reveal } from "../components/Reveal";
+import "./Pages.css";
+
+type Photo = (typeof galleryData.photos)[number];
+
+export function Gallery() {
+  const [active, setActive] = useState<Photo | null>(null);
+
+  useEffect(() => {
+    if (!active) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setActive(null);
+    };
+    window.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [active]);
+
+  return (
+    <>
+      <header className="page-banner">
+        <div className="section-inner">
+          <h1>{galleryData.titleTa}</h1>
+          <span className="en-caption">{galleryData.titleEn}</span>
+          <p className="lead">{galleryData.subtitleTa}</p>
+        </div>
+      </header>
+
+      <div className="page-body">
+        <div className="page-body-inner">
+          <Reveal className="gallery-grid">
+            {galleryData.photos.map((photo) => (
+              <button
+                key={photo.id}
+                type="button"
+                className="gallery-tile"
+                onClick={() => setActive(photo)}
+              >
+                <figure>
+                  <img src={photo.src} alt={photo.captionTa} loading="lazy" />
+                  <figcaption>
+                    <h3>{photo.captionTa}</h3>
+                    <span className="en-caption">{photo.captionEn}</span>
+                  </figcaption>
+                </figure>
+              </button>
+            ))}
+          </Reveal>
+
+          <div className="video-block">
+            <h2 className="group-label">காணொளிகள்</h2>
+            <span className="en-caption">Videos</span>
+            {galleryData.videos.map((video) => (
+              <Reveal key={video.id}>
+                <h3 style={{ marginTop: "1rem", color: "var(--temple-deep)" }}>
+                  {video.titleTa}
+                </h3>
+                <span className="en-caption">{video.titleEn}</span>
+                <p className="note-banner" style={{ marginTop: "0.75rem" }}>
+                  {video.noteTa}
+                  <span className="en-caption">{video.noteEn}</span>
+                </p>
+                {video.url ? (
+                  <div className="video-frame">
+                    <iframe
+                      src={video.url}
+                      title={video.titleTa}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                ) : null}
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {active && (
+        <div
+          className="lightbox"
+          role="dialog"
+          aria-modal="true"
+          aria-label={active.captionTa}
+          onClick={() => setActive(null)}
+        >
+          <button
+            type="button"
+            className="lightbox-close"
+            aria-label="Close"
+            onClick={() => setActive(null)}
+          >
+            ×
+          </button>
+          <div className="lightbox-inner" onClick={(e) => e.stopPropagation()}>
+            <img src={active.src} alt={active.captionTa} />
+            <div className="lightbox-caption">
+              {active.captionTa}
+              <span className="en-caption" style={{ color: "rgba(242,230,201,0.7)" }}>
+                {active.captionEn}
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}

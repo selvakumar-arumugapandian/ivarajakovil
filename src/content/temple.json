@@ -1,0 +1,20 @@
+{
+  "nameTa": "அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில்",
+  "nameEn": "Arulmigu Shree Ivaraja Thirukovil",
+  "placeTa": "திப்பனம்பட்டி · பாவூர்ச்சத்திரம் · தென்காசி",
+  "placeEn": "Thippanampatti Village, Pavoorchatram, Tenkasi",
+  "villageTa": "திப்பனம்பட்டி கிராமம்",
+  "taglineTa": "ஐவராஜாவின் அருளால் அனைவரும் நலமுடன் வாழ்க",
+  "taglineEn": "May all prosper by the grace of Ivaraja",
+  "introTa": "தென்காசி மாவட்டம் பாவூர்ச்சத்திரம் அருகே திப்பனம்பட்டி கிராமத்தில் அமைந்துள்ள அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில், அப்பகுதியின் குலதெய்வ வழிபாட்டிற்கும் திருவிழாக்களுக்கும் மையமாக விளங்குகிறது.",
+  "introEn": "Arulmigu Shree Ivaraja Thirukovil in Thippanampatti village near Pavoorchatram, Tenkasi, is a centre of kula deivam worship and festival life for the community.",
+  "heroImage": "/images/deity-hero.svg",
+  "contact": {
+    "addressTa": "திப்பனம்பட்டி கிராமம், பாவூர்ச்சத்திரம், தென்காசி மாவட்டம், தமிழ்நாடு",
+    "addressEn": "Thippanampatti Village, Pavoorchatram, Tenkasi District, Tamil Nadu",
+    "phone": "+91 XXXXX XXXXX",
+    "email": "contact@ivarajakovil.example",
+    "mapEmbedUrl": "https://maps.google.com/maps?q=Thippanampatti+Pavoorchatram+Tenkasi&output=embed",
+    "mapLink": "https://maps.google.com/?q=Thippanampatti+Pavoorchatram+Tenkasi"
+  }
+}

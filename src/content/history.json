@@ -1,0 +1,43 @@
+{
+  "titleTa": "கோயில் வரலாறு",
+  "titleEn": "Temple History",
+  "subtitleTa": "ஐவராஜா திருக்கோயிலின் பாரம்பரியமும் பக்தி வரலாறும்",
+  "sections": [
+    {
+      "id": "origins",
+      "eraTa": "தொடக்கம்",
+      "eraEn": "Origins",
+      "titleTa": "குலதெய்வ வழிபாட்டின் வேர்கள்",
+      "titleEn": "Roots of kula deivam worship",
+      "bodyTa": "ஐவராஜா வழிபாடு தென் தமிழகத்தின் பண்டை பாண்டிய மரபுடனும் குடும்பத் தெய்வ நம்பிக்கையுடனும் இணைந்தது. திப்பனம்பட்டி பகுதியில் இவ்வழிபாடு தலைமுறை தலைமுறையாக தொடர்கிறது. (இந்த உரை மாற்றத்தக்க மாதிரி உள்ளடக்கம் — உண்மையான வரலாற்றுக் குறிப்புகளை இங்கே சேர்க்கவும்.)",
+      "bodyEn": "Ivaraja worship is linked with South Tamil traditions of ancestral and kula deivam faith. In the Thippanampatti area this devotion has continued across generations. (Replaceable sample copy — add authentic history here.)"
+    },
+    {
+      "id": "establishment",
+      "eraTa": "நிறுவுதல்",
+      "eraEn": "Establishment",
+      "titleTa": "திருக்கோயில் அமைப்பு",
+      "titleEn": "Building of the thirukovil",
+      "bodyTa": "கிராம மக்களின் ஒற்றுமையாலும் அறங்காவலர் முயற்சியாலும் திருக்கோயில் வளர்ந்தது. கருவறை, மண்டபம், திருவிழா ஏற்பாடுகள் ஆகியவை பக்தர்களின் பங்களிப்பால் மேம்பட்டன. (உண்மையான ஆண்டுகள், கும்பாபிஷேக விவரங்களை சேர்க்கவும்.)",
+      "bodyEn": "The temple grew through village unity and trustee care. Sanctum, mandapam, and festival arrangements improved with devotees’ support. (Add real years and kumbhabhishekam details.)"
+    },
+    {
+      "id": "festivals",
+      "eraTa": "திருவிழாக்கள்",
+      "eraEn": "Festivals",
+      "titleTa": "ஆண்டுத் திருவிழாக்களும் பூஜைகளும்",
+      "titleEn": "Annual festivals and poojas",
+      "bodyTa": "ஆண்டுதோறும் சிறப்பு பூஜைகள், உற்சவங்கள், அன்னதானம் போன்றவை நடைபெறுகின்றன. இவை கிராமத்தின் ஒற்றுமையையும் பக்தி உணர்வையும் வலுப்படுத்துகின்றன.",
+      "bodyEn": "Special poojas, processions, and annadhanam take place each year, strengthening community bonds and devotion."
+    },
+    {
+      "id": "today",
+      "eraTa": "இன்று",
+      "eraEn": "Today",
+      "titleTa": "தொடரும் அருள் பயணம்",
+      "titleEn": "A continuing journey of grace",
+      "bodyTa": "இன்று அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில் பக்தர்களுக்கு அமைதியான வழிபாட்டு இடமாகவும், குடும்ப நிகழ்வுகளுக்கும் திருவிழாக்களுக்கும் சந்திப்பு மையமாகவும் திகழ்கிறது.",
+      "bodyEn": "Today the thirukovil remains a peaceful place of worship and a gathering point for family rites and festivals."
+    }
+  ]
+}
