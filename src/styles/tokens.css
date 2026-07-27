@@ -212,13 +212,20 @@ button {
 }
 
 .page-banner h1 {
+  font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 2.85rem);
+  font-weight: 400;
+  line-height: 1.35;
   color: var(--white);
 }
 
 .page-banner .lead {
   margin-top: var(--space-sm);
   max-width: 36rem;
+  font-family: var(--font-body);
+  font-size: clamp(1.02rem, 2.2vw, 1.15rem);
+  font-weight: 500;
+  line-height: 1.65;
   color: rgba(242, 230, 201, 0.88);
 }
 

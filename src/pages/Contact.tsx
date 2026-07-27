@@ -10,7 +10,7 @@ export function Contact() {
       <header className="page-banner">
         <div className="section-inner">
           <h1>தொடர்பு</h1>
-          <p className="lead">{temple.placeTa}</p>
+          <p className="lead">முகவரி · வரைபடம் · வருகை</p>
         </div>
       </header>
 
@@ -18,15 +18,19 @@ export function Contact() {
         <div className="page-body-inner contact-grid">
           <Reveal>
             <dl className="contact-details">
-              <dt>முகவரி</dt>
-              <dd>{contact.addressTa}</dd>
+              <div>
+                <dt>முகவரி</dt>
+                <dd>{contact.addressTa}</dd>
+              </div>
 
-              <dt>வரைபடம்</dt>
-              <dd>
-                <a href={contact.mapLink} target="_blank" rel="noreferrer">
-                  வரைபடத்தில் திறக்க
-                </a>
-              </dd>
+              <div>
+                <dt>வரைபடம்</dt>
+                <dd>
+                  <a href={contact.mapLink} target="_blank" rel="noreferrer">
+                    வரைபடத்தில் திறக்க
+                  </a>
+                </dd>
+              </div>
             </dl>
           </Reveal>
 
