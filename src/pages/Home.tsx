@@ -17,31 +17,28 @@ export function Home() {
   return (
     <>
       <section className="hero" aria-label="திருக்கோயில் முகப்பு">
-        <div className="hero-media">
-          <img
-            src={temple.heroImage}
-            alt={`${temple.nameTa} — மூலவர் தரிசனம்`}
-            width={1920}
-            height={1080}
-            fetchPriority="high"
-          />
-        </div>
-        <div className="hero-glow" aria-hidden="true" />
-        <div className="hero-shade" aria-hidden="true" />
-        <div className="hero-content">
-          <h1 className="hero-brand">{temple.nameTa}</h1>
-          <span className="en-caption" style={{ color: "rgba(242,230,201,0.75)" }}>
-            {temple.nameEn}
-          </span>
-          <p className="hero-place">{temple.placeTa}</p>
-          <p className="hero-tagline">{temple.taglineTa}</p>
-          <div className="btn-group">
-            <Link className="btn btn-primary" to="/story">
-              கதை
-            </Link>
-            <Link className="btn btn-ghost" to="/villupaattu">
-              வில்லுப்பாட்டு
-            </Link>
+        <div className="hero-inner">
+          <div className="hero-media">
+            <img
+              src={temple.heroImage}
+              alt={`${temple.nameTa} — மூலவர் தரிசனம்`}
+              width={682}
+              height={1024}
+              fetchPriority="high"
+            />
+          </div>
+          <div className="hero-content">
+            <h1 className="hero-brand">{temple.nameTa}</h1>
+            <p className="hero-place">{temple.placeTa}</p>
+            <p className="hero-tagline">{temple.taglineTa}</p>
+            <div className="btn-group">
+              <Link className="btn btn-primary" to="/story">
+                கதை
+              </Link>
+              <Link className="btn btn-ghost" to="/villupaattu">
+                வில்லுப்பாட்டு
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -51,10 +48,8 @@ export function Home() {
           <Reveal className="home-intro-grid">
             <div className="section-head">
               <h2>திருக்கோயில் அறிமுகம்</h2>
-              <span className="en-caption">{temple.nameEn}</span>
               <hr className="gold-rule" />
               <p className="lead">{temple.introTa}</p>
-              <span className="en-caption">{temple.introEn}</span>
             </div>
           </Reveal>
         </div>
@@ -64,10 +59,9 @@ export function Home() {
         <div className="section-inner">
           <Reveal className="section-head">
             <h2>ஐவர் ராசாக்கள் கதை</h2>
-            <span className="en-caption">Story & villu paattu</span>
             <hr className="gold-rule" />
             <p className="lead">
-              காவியச் சுருக்கம், வில்லுப்பாட்டு அமைப்பு, முழு நூல் பதிவிறக்கம்
+              தலைப்புகளாகப் பிரித்த முழுக் கதை, வில்லுப்பாட்டு, நூல் பதிவிறக்கம்
             </p>
           </Reveal>
           <BookDownload book={story.book} />
@@ -86,7 +80,6 @@ export function Home() {
         <div className="section-inner">
           <Reveal className="section-head">
             <h2>வரவிருக்கும் நிகழ்வுகள்</h2>
-            <span className="en-caption">Upcoming events</span>
             <hr className="gold-rule" />
             <p className="lead">அடுத்த திருவிழாக்களும் சிறப்பு பூஜைகளும்</p>
           </Reveal>
@@ -97,7 +90,6 @@ export function Home() {
                 <div className="event-date">{event.dateTa}</div>
                 <div>
                   <h3>{event.titleTa}</h3>
-                  <span className="en-caption">{event.titleEn}</span>
                   <p>{event.bodyTa}</p>
                 </div>
               </li>
@@ -116,14 +108,13 @@ export function Home() {
         <div className="section-inner">
           <Reveal className="section-head">
             <h2>தரிசனப் பார்வை</h2>
-            <span className="en-caption">Gallery peek</span>
             <hr className="gold-rule" />
             <p className="lead">திருக்கோயில் புகைப்படங்களிலிருந்து ஒரு சிறிய தேர்வு</p>
           </Reveal>
 
           <Reveal className="gallery-peek-grid">
             {peek.map((photo) => (
-              <Link key={photo.id} to="/gallery" title={photo.captionEn}>
+              <Link key={photo.id} to="/gallery" title={photo.captionTa}>
                 <img src={photo.src} alt={photo.captionTa} loading="lazy" />
               </Link>
             ))}

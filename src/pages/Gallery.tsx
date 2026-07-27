@@ -26,7 +26,6 @@ export function Gallery() {
       <header className="page-banner">
         <div className="section-inner">
           <h1>{galleryData.titleTa}</h1>
-          <span className="en-caption">{galleryData.titleEn}</span>
           <p className="lead">{galleryData.subtitleTa}</p>
         </div>
       </header>
@@ -45,7 +44,6 @@ export function Gallery() {
                   <img src={photo.src} alt={photo.captionTa} loading="lazy" />
                   <figcaption>
                     <h3>{photo.captionTa}</h3>
-                    <span className="en-caption">{photo.captionEn}</span>
                   </figcaption>
                 </figure>
               </button>
@@ -54,16 +52,13 @@ export function Gallery() {
 
           <div className="video-block">
             <h2 className="group-label">காணொளிகள்</h2>
-            <span className="en-caption">Videos</span>
             {galleryData.videos.map((video) => (
               <Reveal key={video.id}>
                 <h3 style={{ marginTop: "1rem", color: "var(--temple-deep)" }}>
                   {video.titleTa}
                 </h3>
-                <span className="en-caption">{video.titleEn}</span>
                 <p className="note-banner" style={{ marginTop: "0.75rem" }}>
                   {video.noteTa}
-                  <span className="en-caption">{video.noteEn}</span>
                 </p>
                 {video.url ? (
                   <div className="video-frame">
@@ -92,19 +87,14 @@ export function Gallery() {
           <button
             type="button"
             className="lightbox-close"
-            aria-label="Close"
+            aria-label="மூடு"
             onClick={() => setActive(null)}
           >
             ×
           </button>
           <div className="lightbox-inner" onClick={(e) => e.stopPropagation()}>
             <img src={active.src} alt={active.captionTa} />
-            <div className="lightbox-caption">
-              {active.captionTa}
-              <span className="en-caption" style={{ color: "rgba(242,230,201,0.7)" }}>
-                {active.captionEn}
-              </span>
-            </div>
+            <div className="lightbox-caption">{active.captionTa}</div>
           </div>
         </div>
       )}

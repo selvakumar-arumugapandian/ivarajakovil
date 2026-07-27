@@ -110,16 +110,6 @@ button {
   border: 0;
 }
 
-.en-caption {
-  display: block;
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: var(--ink-muted);
-  letter-spacing: 0.01em;
-  margin-top: 0.2rem;
-}
-
 .gold-rule {
   width: 4.5rem;
   height: 2px;
@@ -224,10 +214,6 @@ button {
 .page-banner h1 {
   font-size: clamp(2rem, 5vw, 2.85rem);
   color: var(--white);
-}
-
-.page-banner .en-caption {
-  color: rgba(242, 230, 201, 0.75);
 }
 
 .page-banner .lead {

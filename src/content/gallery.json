@@ -1,29 +1,24 @@
 {
   "titleTa": "புகைப்படங்களும் காணொளிகளும்",
-  "titleEn": "Photos & Videos",
   "subtitleTa": "திருக்கோயில் தரிசனங்களும் திருவிழா நினைவுகளும்",
   "photos": [
     {
       "id": "photo-1",
       "src": "/images/deity-hero.png",
-      "captionTa": "ஸ்ரீ ஐவராஜா தரிசனம்",
-      "captionEn": "Sri Ivaraja darshan"
+      "captionTa": "ஸ்ரீ ஐவராஜா தரிசனம்"
     },
     {
       "id": "photo-2",
       "src": "/images/deity-altar.png",
-      "captionTa": "கருவறை அலங்காரம்",
-      "captionEn": "Sanctum alankaram"
+      "captionTa": "கருவறை அலங்காரம்"
     }
   ],
   "videos": [
     {
       "id": "video-1",
       "titleTa": "திருவிழா காணொளி",
-      "titleEn": "Festival video",
       "url": "",
-      "noteTa": "உண்மையான YouTube/Vimeo embed URL-ஐ gallery.json-இல் சேர்க்கவும்.",
-      "noteEn": "Add a real YouTube or Vimeo embed URL in gallery.json."
+      "noteTa": "காணொளி இணைப்பை பின்னர் சேர்க்கலாம்."
     }
   ]
 }

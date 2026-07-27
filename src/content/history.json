@@ -1,34 +1,24 @@
 {
   "titleTa": "கோயில் வரலாறு",
-  "titleEn": "Temple History",
   "subtitleTa": "திப்பனம்பட்டி அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில்",
   "sections": [
     {
       "id": "legend",
       "eraTa": "காவிய மரபு",
-      "eraEn": "Epic tradition",
       "titleTa": "ஐவர் ராசாக்கள் நினைவு",
-      "titleEn": "Memory of the Five Rajas",
-      "bodyTa": "ஸ்ரீ ஐவராஜா வழிபாடு, தென் தமிழகத்தின் ஐவர் ராசாக்கள் / பஞ்சபாண்டியர் செவிவழிக் காவியத்துடன் இணைந்தது. «ஐவர் ராசாக்கள் கதை» என்ற நாட்டுப்பாடல் நூல் இம்மரபின் கதையையும் வில்லுப்பாட்டையும் பாதுகாக்கிறது.",
-      "bodyEn": "Sri Ivaraja worship is bound to the South Tamil legend of the Five Rajas. The folk book Aivar Rasakkal Kathai preserves both the story and the villu paattu."
+      "bodyTa": "ஸ்ரீ ஐவராஜா வழிபாடு, தென் தமிழகத்தின் ஐவர் ராசாக்கள் செவிவழிக் காவியத்துடன் இணைந்தது. «ஐவர் ராசாக்கள் கதை» என்ற நாட்டுப்பாடல் நூல் இம்மரபின் கதையையும் வில்லுப்பாட்டையும் பாதுகாக்கிறது."
     },
     {
       "id": "place",
       "eraTa": "இடம்",
-      "eraEn": "Place",
       "titleTa": "திப்பனம்பட்டி திருக்கோயில்",
-      "titleEn": "Thippanampatti thirukovil",
-      "bodyTa": "பாவூர்ச்சத்திரம் அருகே திப்பனம்பட்டி கிராமத்தில் அமைந்துள்ள இத்திருக்கோயில், உள்ளூர் குலதெய்வ வழிபாட்டிற்கும் திருவிழாக்களுக்கும் மையம். ஐவராஜாவின் அருளை நாடி பக்தர்கள் வந்து வணங்குகின்றனர்.",
-      "bodyEn": "The temple in Thippanampatti near Pavoorchatram is a centre of local kula deivam worship and festivals for devotees of Ivaraja."
+      "bodyTa": "பாவூர்ச்சத்திரம் அருகே திப்பனம்பட்டி கிராமத்தில் அமைந்துள்ள இத்திருக்கோயில், உள்ளூர் குலதெய்வ வழிபாட்டிற்கும் திருவிழாக்களுக்கும் மையம். ஐவராஜாவின் அருளை நாடி பக்தர்கள் வந்து வணங்குகின்றனர்."
     },
     {
       "id": "living",
       "eraTa": "தொடர்ச்சி",
-      "eraEn": "Living tradition",
       "titleTa": "கதையும் வழிபாடும் இன்று",
-      "titleEn": "Story and worship today",
-      "bodyTa": "காவியத்தில் வாழும் குலசேகரன் வீரமும் தியாகமும், இன்று திருக்கோயில் தரிசனமாகவும் திருவிழா உற்சவமாகவும் தொடர்கின்றன. முழுக் கதையையும் வில்லுப்பாட்டையும் தனிப் பக்கங்களிலும் PDF நூலிலும் காணலாம்.",
-      "bodyEn": "The courage and sacrifice of the epic continue today as darshan and festival. Read the full story and villu paattu on their pages, or download the book PDF."
+      "bodyTa": "காவியத்தில் வாழும் குலசேகரன் வீரமும் தியாகமும், இன்று திருக்கோயில் தரிசனமாகவும் திருவிழா உற்சவமாகவும் தொடர்கின்றன. முழுக் கதையையும் வில்லுப்பாட்டையும் தனிப் பக்கங்களிலும் நூல் பதிவிறக்கத்திலும் காணலாம்."
     }
   ]
 }

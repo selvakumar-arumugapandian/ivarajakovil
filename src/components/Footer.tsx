@@ -10,16 +10,11 @@ export function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <h2>{temple.nameTa}</h2>
-          <span className="en-caption">{temple.nameEn}</span>
           <p className="footer-place">{temple.placeTa}</p>
-          <span className="en-caption">{temple.placeEn}</span>
         </div>
 
         <div className="footer-meta">
-          <div>
-            <div>{temple.contact.addressTa}</div>
-            <span className="en-caption">{temple.contact.addressEn}</span>
-          </div>
+          <div>{temple.contact.addressTa}</div>
           <div>
             <a href={`tel:${temple.contact.phone.replace(/\s/g, "")}`}>
               {temple.contact.phone}
@@ -31,11 +26,9 @@ export function Footer() {
             <a href={temple.contact.mapLink} target="_blank" rel="noreferrer">
               வரைபடத்தில் காண்க
             </a>
-            <span className="en-caption">View on map</span>
           </div>
           <div>
             <Link to="/contact">தொடர்பு</Link>
-            <span className="en-caption">Contact</span>
           </div>
         </div>
 

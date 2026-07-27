@@ -4,13 +4,13 @@ import temple from "../content/temple.json";
 import "./Header.css";
 
 const links = [
-  { to: "/", label: "முகப்பு", title: "Home", end: true },
-  { to: "/history", label: "வரலாறு", title: "History" },
-  { to: "/story", label: "கதை", title: "Story" },
-  { to: "/villupaattu", label: "வில்லுப்பாட்டு", title: "Villu Paattu" },
-  { to: "/events", label: "நிகழ்வுகள்", title: "Events" },
-  { to: "/gallery", label: "புகைப்படங்கள்", title: "Gallery" },
-  { to: "/contact", label: "தொடர்பு", title: "Contact" },
+  { to: "/", label: "முகப்பு", end: true },
+  { to: "/history", label: "வரலாறு" },
+  { to: "/story", label: "கதை" },
+  { to: "/villupaattu", label: "வில்லுப்பாட்டு" },
+  { to: "/events", label: "நிகழ்வுகள்" },
+  { to: "/gallery", label: "புகைப்படங்கள்" },
+  { to: "/contact", label: "தொடர்பு" },
 ] as const;
 
 export function Header() {
@@ -41,7 +41,6 @@ export function Header() {
         <NavLink
           to="/"
           className="brand-link"
-          title={`${temple.nameTa} — ${temple.nameEn}`}
           aria-label={temple.nameTa}
         >
           <img
@@ -61,7 +60,7 @@ export function Header() {
           className="nav-toggle"
           aria-expanded={open}
           aria-controls="site-nav"
-          aria-label={open ? "Close menu" : "Open menu"}
+          aria-label={open ? "மெனுவை மூடு" : "மெனுவைத் திற"}
           onClick={() => setOpen((v) => !v)}
         >
           <span className="nav-toggle-bars" aria-hidden="true" />
@@ -74,7 +73,6 @@ export function Header() {
                 <NavLink
                   to={link.to}
                   end={"end" in link ? link.end : false}
-                  title={link.title}
                   className={({ isActive }) => (isActive ? "active" : undefined)}
                 >
                   {link.label}

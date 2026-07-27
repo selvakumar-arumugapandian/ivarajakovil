@@ -19,10 +19,6 @@
   color: var(--white);
 }
 
-.book-download .en-caption {
-  color: rgba(242, 230, 201, 0.7);
-}
-
 .book-series {
   margin-top: 0.35rem;
   font-size: 0.95rem;
@@ -37,11 +33,7 @@
 }
 
 .book-download .btn {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.15rem;
   white-space: normal;
-  text-align: left;
 }
 
 .chapter-list,

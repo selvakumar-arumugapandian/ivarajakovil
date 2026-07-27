@@ -10,7 +10,6 @@ export function Contact() {
       <header className="page-banner">
         <div className="section-inner">
           <h1>தொடர்பு</h1>
-          <span className="en-caption">Contact</span>
           <p className="lead">{temple.placeTa}</p>
         </div>
       </header>
@@ -20,15 +19,11 @@ export function Contact() {
           <Reveal>
             <dl className="contact-details">
               <dt>முகவரி</dt>
-              <dd>
-                {contact.addressTa}
-                <span className="en-caption">{contact.addressEn}</span>
-              </dd>
+              <dd>{contact.addressTa}</dd>
 
               <dt>தொலைபேசி</dt>
               <dd>
                 <a href={`tel:${contact.phone.replace(/\s/g, "")}`}>{contact.phone}</a>
-                <span className="en-caption">Replace placeholder in temple.json</span>
               </dd>
 
               <dt>மின்னஞ்சல்</dt>
@@ -39,7 +34,7 @@ export function Contact() {
               <dt>வரைபடம்</dt>
               <dd>
                 <a href={contact.mapLink} target="_blank" rel="noreferrer">
-                  Google Maps-இல் திறக்க
+                  வரைபடத்தில் திறக்க
                 </a>
               </dd>
             </dl>
