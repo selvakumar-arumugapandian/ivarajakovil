@@ -23,11 +23,12 @@ Edit JSON under `src/content/`:
 
 | File | Purpose |
 |------|---------|
-| `temple.json` | Name, place, tagline, contact, hero image path |
-| `history.json` | Temple history sections |
-| `story.json` | Aivar Rasakkal story chapters |
-| `villupaattu.json` | Villu paattu structure |
-| `events.json` | Upcoming / past events |
+| `temple.json` | Name, place, tagline, contact, home pathways, hero image |
+| `story.json` | ஐவர் ராசாக்கள் வரலாறு chapters (`/varalaru`) |
+| `villupaattu.json` | வில்லுப்பாட்டு seiyyul parts |
+| `events.json` | Festival chronicles + listed events |
 | `gallery.json` | Photos and video embed URLs |
 
 Book PDF: `public/books/aivar-rasakkal-kathai.pdf` (ஐவர் ராசாக்கள் கதை).
+
+Optional helper: `scripts/extract_villupaattu_seiyyul.py` regenerates `villupaattu.json` from the book PDF.

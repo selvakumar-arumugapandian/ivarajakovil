@@ -128,20 +128,6 @@ export function getTamilDateParts(date: Date): TamilDateParts {
   };
 }
 
-export function getTamilMonthName(date: Date): string {
-  return getTamilDateParts(date).monthName;
-}
-
-export function getTamilMonthsInGregorianMonth(year: number, month: number): string[] {
-  const names: string[] = [];
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
-  for (let day = 1; day <= daysInMonth; day += 1) {
-    const name = getTamilDateParts(atNoon(year, month, day)).monthName;
-    if (!names.includes(name)) names.push(name);
-  }
-  return names;
-}
-
 export function getLastFridayOfTamilMonthContaining(date: Date): Date {
   const { monthStart, monthEnd } = getTamilDateParts(date);
   let cursor = monthEnd;
@@ -150,12 +136,6 @@ export function getLastFridayOfTamilMonthContaining(date: Date): Date {
     cursor = addDays(cursor, -1);
   }
   return monthStart;
-}
-
-export function isKadaisiVelli(date: Date): boolean {
-  if (date.getDay() !== 5) return false;
-  const last = getLastFridayOfTamilMonthContaining(date);
-  return dayIndex(startOfDay(date)) === dayIndex(last);
 }
 
 export type TamilMonthPooja = {
@@ -216,39 +196,6 @@ export function getUpcomingKadaisiPoojas(
   }
 
   return pool;
-}
-
-export function sameMonth(a: Date, b: Date): boolean {
-  return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth();
-}
-
-export function addMonths(date: Date, count: number): Date {
-  return new Date(date.getFullYear(), date.getMonth() + count, 1, 12, 0, 0, 0);
-}
-
-export function clampMonth(date: Date, min: Date, max: Date): Date {
-  const value = new Date(date.getFullYear(), date.getMonth(), 1, 12, 0, 0, 0);
-  if (dayIndex(value) < dayIndex(min)) {
-    return new Date(min.getFullYear(), min.getMonth(), 1, 12, 0, 0, 0);
-  }
-  if (dayIndex(value) > dayIndex(max)) {
-    return new Date(max.getFullYear(), max.getMonth(), 1, 12, 0, 0, 0);
-  }
-  return value;
-}
-
-export function buildMonthGrid(year: number, month: number): (Date | null)[] {
-  const first = atNoon(year, month, 1);
-  const startWeekday = first.getDay();
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
-  const cells: (Date | null)[] = [];
-
-  for (let i = 0; i < startWeekday; i += 1) cells.push(null);
-  for (let day = 1; day <= daysInMonth; day += 1) {
-    cells.push(atNoon(year, month, day));
-  }
-  while (cells.length % 7 !== 0) cells.push(null);
-  return cells;
 }
 
 export function toDateKey(date: Date): string {
