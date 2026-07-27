@@ -102,33 +102,6 @@
   color: var(--temple-deep);
 }
 
-.member-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 0;
-}
-
-.member-row {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: var(--space-md);
-  align-items: baseline;
-  padding: var(--space-md) 0;
-  border-bottom: 1px solid rgba(26, 39, 68, 0.12);
-}
-
-.member-row h3 {
-  font-size: 1.2rem;
-  color: var(--temple-deep);
-}
-
-.member-role {
-  color: var(--ink-muted);
-  font-size: 0.95rem;
-}
-
 .note-banner {
   margin-bottom: var(--space-lg);
   padding: var(--space-md);
@@ -299,11 +272,6 @@
 @media (max-width: 600px) {
   .event-card {
     grid-template-columns: 1fr;
-  }
-
-  .member-row {
-    grid-template-columns: 1fr;
-    gap: 0.25rem;
   }
 }
 

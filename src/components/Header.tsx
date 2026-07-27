@@ -7,7 +7,6 @@ const links = [
   { to: "/", label: "முகப்பு", title: "Home", end: true },
   { to: "/history", label: "வரலாறு", title: "History" },
   { to: "/events", label: "நிகழ்வுகள்", title: "Events" },
-  { to: "/members", label: "உறுப்பினர்கள்", title: "Members" },
   { to: "/gallery", label: "புகைப்படங்கள்", title: "Gallery" },
   { to: "/contact", label: "தொடர்பு", title: "Contact" },
 ] as const;
@@ -37,9 +36,13 @@ export function Header() {
   return (
     <header className={headerClass}>
       <div className="nav-inner">
-        <NavLink to="/" className="brand-link" title={temple.nameEn}>
-          <span className="brand-ta">{temple.nameTa}</span>
-          <span className="brand-en">{temple.nameEn}</span>
+        <NavLink
+          to="/"
+          className="brand-link"
+          title={`${temple.nameTa} — ${temple.nameEn}`}
+          aria-label={temple.nameTa}
+        >
+          <span className="brand-ta">ஐவராஜா திருக்கோயில்</span>
         </NavLink>
 
         <button
