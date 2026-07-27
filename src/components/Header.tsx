@@ -6,6 +6,8 @@ import "./Header.css";
 const links = [
   { to: "/", label: "முகப்பு", title: "Home", end: true },
   { to: "/history", label: "வரலாறு", title: "History" },
+  { to: "/story", label: "கதை", title: "Story" },
+  { to: "/villupaattu", label: "வில்லுப்பாட்டு", title: "Villu Paattu" },
   { to: "/events", label: "நிகழ்வுகள்", title: "Events" },
   { to: "/gallery", label: "புகைப்படங்கள்", title: "Gallery" },
   { to: "/contact", label: "தொடர்பு", title: "Contact" },
@@ -42,7 +44,16 @@ export function Header() {
           title={`${temple.nameTa} — ${temple.nameEn}`}
           aria-label={temple.nameTa}
         >
-          <span className="brand-ta">ஐவராஜா திருக்கோயில்</span>
+          <img
+            className="brand-mark"
+            src="/images/deity-icon.png"
+            alt=""
+            width={40}
+            height={40}
+          />
+          <span className="brand-text">
+            <span className="brand-ta">ஐவராஜா திருக்கோயில்</span>
+          </span>
         </NavLink>
 
         <button

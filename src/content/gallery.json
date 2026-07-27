@@ -5,39 +5,15 @@
   "photos": [
     {
       "id": "photo-1",
-      "src": "/images/gallery-1.svg",
-      "captionTa": "கருவறை தரிசனம்",
-      "captionEn": "Sanctum darshan"
+      "src": "/images/deity-hero.png",
+      "captionTa": "ஸ்ரீ ஐவராஜா தரிசனம்",
+      "captionEn": "Sri Ivaraja darshan"
     },
     {
       "id": "photo-2",
-      "src": "/images/gallery-2.svg",
-      "captionTa": "விளக்கு வழிபாடு",
-      "captionEn": "Lamp worship"
-    },
-    {
-      "id": "photo-3",
-      "src": "/images/gallery-3.svg",
-      "captionTa": "திருவிழா அலங்காரம்",
-      "captionEn": "Festival alankaram"
-    },
-    {
-      "id": "photo-4",
-      "src": "/images/gallery-4.svg",
-      "captionTa": "கோயில் வாயில்",
-      "captionEn": "Temple entrance"
-    },
-    {
-      "id": "photo-5",
-      "src": "/images/gallery-5.svg",
-      "captionTa": "உற்சவ ஊர்வலம்",
-      "captionEn": "Festival procession"
-    },
-    {
-      "id": "photo-6",
-      "src": "/images/gallery-6.svg",
-      "captionTa": "பக்தர் கூட்டம்",
-      "captionEn": "Devotee gathering"
+      "src": "/images/deity-altar.png",
+      "captionTa": "கருவறை அலங்காரம்",
+      "captionEn": "Sanctum alankaram"
     }
   ],
   "videos": [

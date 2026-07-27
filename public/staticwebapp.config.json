@@ -1,9 +1,18 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/assets/*", "/images/*", "/videos/*", "/*.{css,js,ico,png,jpg,jpeg,webp,svg,woff,woff2}"]
+    "exclude": [
+      "/assets/*",
+      "/images/*",
+      "/books/*",
+      "/videos/*",
+      "/*.{css,js,ico,png,jpg,jpeg,webp,svg,woff,woff2,pdf}"
+    ]
   },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff"
+  },
+  "mimeTypes": {
+    ".pdf": "application/pdf"
   }
 }

@@ -1,0 +1,56 @@
+{
+  "titleTa": "வில்லுப்பாட்டு",
+  "titleEn": "Villu Paattu",
+  "subtitleTa": "ஐவர் ராசாக்கள் கதை — வில்லிசை மூலப் பாடல் அமைப்பு",
+  "introTa": "வில்லுப்பாட்டு என்பது வில்லை முன் வைத்துப் பாடும் தென் தமிழக நாட்டுப்புறக் கதைப்பாடல் வடிவம். «ஐவர் ராசாக்கள் கதை» நூலில் உள்ள மூலம் (சுமார் பக்கம் 33–218) இக்கதையின் வில்லுப்பாட்டு வடிவமாகும். இப்பாடல் இப்போது எல்லா இடங்களிலும் அடிக்கடி பாடப்படுவதில்லை; ஆனால் ஏட்டுப் பிரதிகளிலும் அச்சு நூலிலும் பாதுகாக்கப்பட்டுள்ளது.",
+  "introEn": "Villu paattu is a South Tamil folk ballad form sung with a bow. The main source text in Aivar Rasakkal Kathai (approx. pages 33–218) is this story in villu paattu form.",
+  "sourceNoteTa": "கீழே உள்ள பகுதிகள் நூலின் மூல அமைப்பை அறிமுகப்படுத்தும் சுருக்கங்கள். முழுப் பாடல் அடிகளையும் குறிப்புரையையும் PDF நூலில் படிக்கவும் / பதிவிறக்கவும்.",
+  "sourceNoteEn": "Sections below outline the song’s structure. Read or download the full verses in the PDF book.",
+  "book": {
+    "titleTa": "ஐவர் ராசாக்கள் கதை",
+    "titleEn": "Aivar Rasakkal Kathai",
+    "seriesTa": "நாட்டுப்பாடல் வெளியீடு",
+    "file": "/books/aivar-rasakkal-kathai.pdf",
+    "downloadLabelTa": "முழு வில்லுப்பாட்டு நூலைப் பதிவிறக்குக",
+    "downloadLabelEn": "Download the full villu paattu book"
+  },
+  "parts": [
+    {
+      "id": "malaiyammal-song",
+      "titleTa": "மாலையம்மை கதை",
+      "titleEn": "Malaiyammal episode",
+      "bodyTa": "பாட்டின் தொடக்கம். மதுரைச் சொக்கநாதர் அருள், மாலையம்மையின் தவம், பிள்ளைப் பேறு — குலசேகரனும் தம்பியரும் பிறக்கும் வரை. புராண மரபில் அரச குலத்தைத் தெய்வ அருளுடன் இணைக்கும் பாடல் பகுதி.",
+      "bodyEn": "Opening song: Madurai grace, Malaiyammal’s penance, and the birth of Kulasekaran and his brothers."
+    },
+    {
+      "id": "fort-and-rule",
+      "titleTa": "கோட்டையும் ஆட்சியும்",
+      "titleEn": "Fort and reign",
+      "bodyTa": "ஐவர் கோட்டை அமைப்பு, வள்ளியூர் மையம், ஆட்சி அறம், பண்டாரங்கள் படம் வரைந்து செல்லும் நிகழ்ச்சிகள் — காவியத்தின் நடுப்பகுதி இங்கு விரிகிறது.",
+      "bodyEn": "Building of the forts, Valliyur as centre, righteous rule, and the painters’ journey that links distant courts."
+    },
+    {
+      "id": "veenan-song",
+      "titleTa": "வீணாதி வீணன் பகுதி",
+      "titleEn": "Veenathi Veenan episode",
+      "bodyTa": "வரி சுமை, கலகம், பிடிப்பு, மன்னிப்பு, மந்திரிப் பதவி, போரில் வீர மரணம் — தனிக் கதையாகவும் ஐவர் காவியத்துடன் இணைந்த பகுதியாகவும் நூலில் காணப்படுகிறது. பிற்சேர்க்கையில் தனியாகவும் பதிப்பிக்கப்பட்டுள்ளது.",
+      "bodyEn": "Tax revolt, capture, pardon, ministry, and heroic death — woven into the main epic and also printed as an appendix."
+    },
+    {
+      "id": "war-song",
+      "titleTa": "கன்னடியர் போர்ப் பாடல்",
+      "titleEn": "Kannada war songs",
+      "bodyTa": "மணத் தூது, மறுப்பு, முற்றுகை, குளத்து நீர் நிறுத்தம் போன்ற உத்திகள், கோட்டை வீழ்ச்சி, சிறை — வில்லுப்பாட்டின் இறுதிப் போர்ப் பகுதிகள் இங்கே உச்சம் பெறுகின்றன.",
+      "bodyEn": "Marriage embassy, refusal, siege devices, fall of the fort, and captivity — the war climax of the ballad."
+    },
+    {
+      "id": "finale-song",
+      "titleTa": "இறுதித் தியாகப் பாடல்",
+      "titleEn": "Final sacrifice",
+      "bodyTa": "குலசேகரனின் உயிர்த் துறப்பும் கன்னடிய இளவரசியின் உடன் கட்டையேறலும் இந்தியக் காவிய மரபின்படி வீரனும் கற்புடைய தலைவியும் இணைந்த இறுதிக் காட்சியாகப் பாடப்படுகின்றன.",
+      "bodyEn": "Kulasekaran’s death and the princess’s sati close the ballad in the classical mould of hero and steadfast heroine."
+    }
+  ],
+  "performanceNoteTa": "நூல் குறிப்பிடுவதுபோல், இக்கதைப்பாடல் ஒரு காலத்தில் குமரி–நெல்லைப் பகுதிகளில் பாடப்பட்டது. அகஸ்தீசுவரம் அருகே ஐவர் ராசாக்கள் கோயிலில் பாடப்பட்டதாகவும் செவிவழிச் செய்தி உண்டு. முழு மூலப்பாடலை நூல் PDF-இல் காணலாம்.",
+  "performanceNoteEn": "The book notes the ballad was sung in the Kanyakumari–Tirunelveli region, including near Agastheeswaram. The complete source text is in the PDF."
+}

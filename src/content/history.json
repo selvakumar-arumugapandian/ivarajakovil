@@ -1,43 +1,34 @@
 {
   "titleTa": "கோயில் வரலாறு",
   "titleEn": "Temple History",
-  "subtitleTa": "ஐவராஜா திருக்கோயிலின் பாரம்பரியமும் பக்தி வரலாறும்",
+  "subtitleTa": "திப்பனம்பட்டி அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில்",
   "sections": [
     {
-      "id": "origins",
-      "eraTa": "தொடக்கம்",
-      "eraEn": "Origins",
-      "titleTa": "குலதெய்வ வழிபாட்டின் வேர்கள்",
-      "titleEn": "Roots of kula deivam worship",
-      "bodyTa": "ஐவராஜா வழிபாடு தென் தமிழகத்தின் பண்டை பாண்டிய மரபுடனும் குடும்பத் தெய்வ நம்பிக்கையுடனும் இணைந்தது. திப்பனம்பட்டி பகுதியில் இவ்வழிபாடு தலைமுறை தலைமுறையாக தொடர்கிறது. (இந்த உரை மாற்றத்தக்க மாதிரி உள்ளடக்கம் — உண்மையான வரலாற்றுக் குறிப்புகளை இங்கே சேர்க்கவும்.)",
-      "bodyEn": "Ivaraja worship is linked with South Tamil traditions of ancestral and kula deivam faith. In the Thippanampatti area this devotion has continued across generations. (Replaceable sample copy — add authentic history here.)"
+      "id": "legend",
+      "eraTa": "காவிய மரபு",
+      "eraEn": "Epic tradition",
+      "titleTa": "ஐவர் ராசாக்கள் நினைவு",
+      "titleEn": "Memory of the Five Rajas",
+      "bodyTa": "ஸ்ரீ ஐவராஜா வழிபாடு, தென் தமிழகத்தின் ஐவர் ராசாக்கள் / பஞ்சபாண்டியர் செவிவழிக் காவியத்துடன் இணைந்தது. «ஐவர் ராசாக்கள் கதை» என்ற நாட்டுப்பாடல் நூல் இம்மரபின் கதையையும் வில்லுப்பாட்டையும் பாதுகாக்கிறது.",
+      "bodyEn": "Sri Ivaraja worship is bound to the South Tamil legend of the Five Rajas. The folk book Aivar Rasakkal Kathai preserves both the story and the villu paattu."
     },
     {
-      "id": "establishment",
-      "eraTa": "நிறுவுதல்",
-      "eraEn": "Establishment",
-      "titleTa": "திருக்கோயில் அமைப்பு",
-      "titleEn": "Building of the thirukovil",
-      "bodyTa": "கிராம மக்களின் ஒற்றுமையாலும் அறங்காவலர் முயற்சியாலும் திருக்கோயில் வளர்ந்தது. கருவறை, மண்டபம், திருவிழா ஏற்பாடுகள் ஆகியவை பக்தர்களின் பங்களிப்பால் மேம்பட்டன. (உண்மையான ஆண்டுகள், கும்பாபிஷேக விவரங்களை சேர்க்கவும்.)",
-      "bodyEn": "The temple grew through village unity and trustee care. Sanctum, mandapam, and festival arrangements improved with devotees’ support. (Add real years and kumbhabhishekam details.)"
+      "id": "place",
+      "eraTa": "இடம்",
+      "eraEn": "Place",
+      "titleTa": "திப்பனம்பட்டி திருக்கோயில்",
+      "titleEn": "Thippanampatti thirukovil",
+      "bodyTa": "பாவூர்ச்சத்திரம் அருகே திப்பனம்பட்டி கிராமத்தில் அமைந்துள்ள இத்திருக்கோயில், உள்ளூர் குலதெய்வ வழிபாட்டிற்கும் திருவிழாக்களுக்கும் மையம். ஐவராஜாவின் அருளை நாடி பக்தர்கள் வந்து வணங்குகின்றனர்.",
+      "bodyEn": "The temple in Thippanampatti near Pavoorchatram is a centre of local kula deivam worship and festivals for devotees of Ivaraja."
     },
     {
-      "id": "festivals",
-      "eraTa": "திருவிழாக்கள்",
-      "eraEn": "Festivals",
-      "titleTa": "ஆண்டுத் திருவிழாக்களும் பூஜைகளும்",
-      "titleEn": "Annual festivals and poojas",
-      "bodyTa": "ஆண்டுதோறும் சிறப்பு பூஜைகள், உற்சவங்கள், அன்னதானம் போன்றவை நடைபெறுகின்றன. இவை கிராமத்தின் ஒற்றுமையையும் பக்தி உணர்வையும் வலுப்படுத்துகின்றன.",
-      "bodyEn": "Special poojas, processions, and annadhanam take place each year, strengthening community bonds and devotion."
-    },
-    {
-      "id": "today",
-      "eraTa": "இன்று",
-      "eraEn": "Today",
-      "titleTa": "தொடரும் அருள் பயணம்",
-      "titleEn": "A continuing journey of grace",
-      "bodyTa": "இன்று அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில் பக்தர்களுக்கு அமைதியான வழிபாட்டு இடமாகவும், குடும்ப நிகழ்வுகளுக்கும் திருவிழாக்களுக்கும் சந்திப்பு மையமாகவும் திகழ்கிறது.",
-      "bodyEn": "Today the thirukovil remains a peaceful place of worship and a gathering point for family rites and festivals."
+      "id": "living",
+      "eraTa": "தொடர்ச்சி",
+      "eraEn": "Living tradition",
+      "titleTa": "கதையும் வழிபாடும் இன்று",
+      "titleEn": "Story and worship today",
+      "bodyTa": "காவியத்தில் வாழும் குலசேகரன் வீரமும் தியாகமும், இன்று திருக்கோயில் தரிசனமாகவும் திருவிழா உற்சவமாகவும் தொடர்கின்றன. முழுக் கதையையும் வில்லுப்பாட்டையும் தனிப் பக்கங்களிலும் PDF நூலிலும் காணலாம்.",
+      "bodyEn": "The courage and sacrifice of the epic continue today as darshan and festival. Read the full story and villu paattu on their pages, or download the book PDF."
     }
   ]
 }

@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import temple from "../content/temple.json";
+import story from "../content/story.json";
 import eventsData from "../content/events.json";
 import galleryData from "../content/gallery.json";
 import { Reveal } from "../components/Reveal";
+import { BookDownload } from "../components/BookDownload";
 import "./Home.css";
+import "../components/BookDownload.css";
 
 export function Home() {
   const upcoming = eventsData.events
@@ -33,11 +36,11 @@ export function Home() {
           <p className="hero-place">{temple.placeTa}</p>
           <p className="hero-tagline">{temple.taglineTa}</p>
           <div className="btn-group">
-            <Link className="btn btn-primary" to="/history">
-              வரலாறு
+            <Link className="btn btn-primary" to="/story">
+              கதை
             </Link>
-            <Link className="btn btn-ghost" to="/events">
-              நிகழ்வுகள்
+            <Link className="btn btn-ghost" to="/villupaattu">
+              வில்லுப்பாட்டு
             </Link>
           </div>
         </div>
@@ -54,6 +57,28 @@ export function Home() {
               <span className="en-caption">{temple.introEn}</span>
             </div>
           </Reveal>
+        </div>
+      </section>
+
+      <section className="section home-story">
+        <div className="section-inner">
+          <Reveal className="section-head">
+            <h2>ஐவர் ராசாக்கள் கதை</h2>
+            <span className="en-caption">Story & villu paattu</span>
+            <hr className="gold-rule" />
+            <p className="lead">
+              காவியச் சுருக்கம், வில்லுப்பாட்டு அமைப்பு, முழு நூல் பதிவிறக்கம்
+            </p>
+          </Reveal>
+          <BookDownload book={story.book} />
+          <div className="btn-group" style={{ marginTop: "1rem" }}>
+            <Link className="btn btn-primary" to="/story">
+              கதையைப் படிக்க
+            </Link>
+            <Link className="btn btn-outline" to="/villupaattu">
+              வில்லுப்பாட்டு
+            </Link>
+          </div>
         </div>
       </section>
 

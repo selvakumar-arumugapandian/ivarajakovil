@@ -1,0 +1,66 @@
+{
+  "titleTa": "ஐவர் ராசாக்கள் கதை",
+  "titleEn": "The Story of the Five Rajas",
+  "subtitleTa": "ஸ்ரீ ஐவராஜா / ஐவர் ராசாக்களின் வரலாற்றுக் காவியச் சுருக்கம்",
+  "sourceNoteTa": "இந்தக் கதைச் சுருக்கம் நாட்டுப்பாடல் வெளியீடான «ஐவர் ராசாக்கள் கதை» நூலின் முன்னுரையிலும் ஆய்வுரையிலும் கூறப்படும் செவிவழிச் செய்திகளையும் காவிய அமைப்பையும் அடிப்படையாகக் கொண்டது. முழு வில்லுப்பாட்டு மூலமும் நூலில் உள்ளது.",
+  "sourceNoteEn": "This summary follows the preface and research notes of the folk publication Aivar Rasakkal Kathai. The full villu paattu source text is in the book.",
+  "book": {
+    "titleTa": "ஐவர் ராசாக்கள் கதை",
+    "titleEn": "Aivar Rasakkal Kathai",
+    "seriesTa": "நாட்டுப்பாடல் வெளியீடு",
+    "file": "/books/aivar-rasakkal-kathai.pdf",
+    "downloadLabelTa": "நூலைப் பதிவிறக்குக (PDF)",
+    "downloadLabelEn": "Download the book (PDF)"
+  },
+  "chapters": [
+    {
+      "id": "five-kings",
+      "titleTa": "ஐவர் ஆட்சி",
+      "titleEn": "Rule of the five brothers",
+      "bodyTa": "தென் தமிழ்நாட்டில் பாண்டிய குலச் சகோதரர்கள் ஐவர், ஐந்து கோட்டைகளை அமைத்து ஆட்சி செய்தனர். அவர்களுள் மூத்தவர் குலசேகரன். இவர்களது வீரமும் ஆட்சியும் பிற்காலத்தில் «ஐவர் ராசாக்கள்» என்ற பெயரில் செவிவழிக் கதையாகவும் வில்லுப்பாட்டாகவும் நிலைபெற்றன. இன்று ஸ்ரீ ஐவராஜா வழிபாட்டின் வேராகவும் இக்கதை திகழ்கிறது.",
+      "bodyEn": "Five Pandya brothers ruled from five forts in southern Tamil country. The eldest was Kulasekaran. Their legend lived on as the Aivar Rasakkal story and villu paattu — the root of Sri Ivaraja worship."
+    },
+    {
+      "id": "malaiyammal",
+      "titleTa": "மாலையம்மையும் குழந்தைப் பேறும்",
+      "titleEn": "Malaiyammal and the birth of the princes",
+      "bodyTa": "நூலின் முதற்பகுதியான மாலையம்மை கதை, குலசேகரனும் தம்பியரும் பிறப்பதற்கு முன் அவர்களது தாய் செய்த தான தர்மங்களையும், வைகைக் கரையம்மை அருளால் நிகழ்ந்த பிள்ளைப் பேற்றையும் விரிவாகப் பாடுகிறது. அரச பரம்பரை தெய்வ அருளுடன் தொடங்குவதாகக் காவியம் அமைக்கப்பட்டுள்ளது.",
+      "bodyEn": "The opening Malaiyammal episode sings of the charities and divine grace that brought Kulasekaran and his brothers into the world, linking the royal line to sacred blessing."
+    },
+    {
+      "id": "first-war",
+      "titleTa": "கன்னடியர் முதல் போர்",
+      "titleEn": "The first Kannada war",
+      "bodyTa": "வெங்கல ராசன் என்ற கன்னடிய மன்னன் ஐந்து கோட்டைகளையும் கைப்பற்றப் படையெடுத்தான். ஐந்து சகோதரர்களும் படை திரட்டி அவனை விரட்டினர். ஆபத்து மறைந்த பின் வள்ளியூர் நிர்வாகத்தில் குழப்பமும் லஞ்சமும் தலைதூக்கியதாகக் கதை கூறுகிறது.",
+      "bodyEn": "Kannada king Venkala Rajan invaded the five forts. The brothers drove him back. After the danger passed, Valliyur’s administration fell into disorder and bribery, according to the tale."
+    },
+    {
+      "id": "veenan",
+      "titleTa": "வீணாதி வீணன் கலகம்",
+      "titleEn": "The Veenathi Veenan uprising",
+      "bodyTa": "அக்காலத்தில்தான் வீணாதி வீணன் கலகம் தோன்றியது. அவன் அரச ஆணையெனக் காட்டி குடக்காசு, கல்யாண வரி, சாவு வரி போன்றவற்றை வசூலித்தான். இதையறிந்த குலசேகரன் படையெடுத்து அவனைக் கைதியாக்கினான். வீணன் தன் செயல்களை விளக்கி வணங்கியதும், அரசன் அவனை இளைய மந்திரியாக ஏற்றுக் கொண்டான். பின்னர் கன்னடியர் போரில் குலசேகரனுக்காகப் போராடி உயிர் துறந்தான்.",
+      "bodyEn": "Veenathi Veenan rose by levying unlawful taxes in the king’s name. Kulasekaran captured him; after Veenan’s plea he was made a junior minister, and later died fighting for Kulasekaran in the Kannada war."
+    },
+    {
+      "id": "second-war",
+      "titleTa": "இரண்டாம் கன்னடியர் போர்",
+      "titleEn": "The second Kannada war",
+      "bodyTa": "இரண்டாவது போர் மணமறுப்பால் தொடங்கியது. கன்னடியன் தன் மகளைக் குலசேகரனுக்கு மணம் பேசித் தூது அனுப்பினான். குலசேகரன் மறுக்கவே போர் மூண்டது. வள்ளியூர் கோட்டை அழிந்தது. குலசேகரனைத் தவிர அரச குலத்தினர் பலர் போரில் மாண்டனர். குலசேகரன் சிறைப்பட்டான்.",
+      "bodyEn": "The second war began when Kulasekaran refused a marriage proposal from the Kannada king’s daughter. Valliyur fort fell; most of the royal house died, and Kulasekaran was captured."
+    },
+    {
+      "id": "end",
+      "titleTa": "குலசேகரனின் உறுதியும் இளவரசியின் தியாகமும்",
+      "titleEn": "Kulasekaran’s resolve and the princess’s sacrifice",
+      "bodyTa": "கன்னடியன் குலசேகரனைப் பல்லக்கில் ஏற்றித் தன் மகளுக்கு மணம் செய்திட முயன்றான். ஆனால் குலசேகரன் பல்லக்கிலேயே உயிர் விட்டான் — பகைவன் மகளை மணக்க மறுத்த உறுதி. இதையறிந்த கன்னடிய இளவரசி, உயிரிழந்த குலசேகரனுக்கு மாலையிட்டு உடன் கட்டையேறினாள். இரு குலங்களின் வீரமும் கற்பும் ஒன்றாக இணைந்த இறுதிக் காட்சியே இக்காவியத்தின் உச்சம்.",
+      "bodyEn": "Rather than marry the enemy’s daughter, Kulasekaran died in the palanquin. The Kannada princess garlanded him and joined his funeral pyre — the epic’s climax of courage and fidelity."
+    },
+    {
+      "id": "worship",
+      "titleTa": "ஐவராஜா வழிபாட்டில் இக்கதை",
+      "titleEn": "How the story lives in Ivaraja worship",
+      "bodyTa": "ஐவர் ராசாக்கள் கதை, பஞ்சபாண்டியர் கதை, கன்னடியன் படைப்போர், உலகமுழுதுடையாள் கதை, வெட்டும் பெருமாள் கதை ஆகியவை ஒரே வரலாற்று நினைவைப் பேசுவன எனச் செவிவழிச் செய்திகள் கூறுகின்றன. இன்று திப்பனம்பட்டியிலும் பிற ஐவராஜா திருக்கோயில்களிலும் இவ்வீர மரபு குலதெய்வ வழிபாடாகத் தொடர்கிறது.",
+      "bodyEn": "Folk memory links several related ballads as one historical tradition. Today that memory continues as kula deivam worship of Sri Ivaraja, including at Thippanampatti."
+    }
+  ]
+}

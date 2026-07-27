@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom";
 import history from "../content/history.json";
+import story from "../content/story.json";
 import { Reveal } from "../components/Reveal";
+import { BookDownload } from "../components/BookDownload";
 import "./Pages.css";
+import "../components/BookDownload.css";
 
 export function History() {
   return (
@@ -15,6 +19,8 @@ export function History() {
 
       <div className="page-body">
         <div className="page-body-inner">
+          <BookDownload book={story.book} />
+
           <ol className="timeline">
             {history.sections.map((section) => (
               <Reveal as="li" key={section.id} className="timeline-item">
@@ -29,6 +35,15 @@ export function History() {
               </Reveal>
             ))}
           </ol>
+
+          <div className="related-links">
+            <Link className="btn btn-primary" to="/story">
+              கதைப் பக்கம்
+            </Link>
+            <Link className="btn btn-outline" to="/villupaattu">
+              வில்லுப்பாட்டு
+            </Link>
+          </div>
         </div>
       </div>
     </>

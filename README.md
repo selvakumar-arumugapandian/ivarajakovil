@@ -24,8 +24,10 @@ Edit JSON under `src/content/`:
 | File | Purpose |
 |------|---------|
 | `temple.json` | Name, place, tagline, contact, hero image path |
-| `history.json` | History sections |
+| `history.json` | Temple history sections |
+| `story.json` | Aivar Rasakkal story chapters |
+| `villupaattu.json` | Villu paattu structure |
 | `events.json` | Upcoming / past events |
 | `gallery.json` | Photos and video embed URLs |
 
-Replace `public/images/deity-hero.svg` with your main deity photo (e.g. `deity-hero.jpg`) and update `heroImage` in `temple.json`. Swap gallery SVGs with real photos the same way.
+Book PDF: `public/books/aivar-rasakkal-kathai.pdf` (ஐவர் ராசாக்கள் கதை).

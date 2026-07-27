@@ -1,0 +1,83 @@
+.book-download {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin: 0 0 var(--space-xl);
+  padding: var(--space-lg);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  background:
+    radial-gradient(ellipse 60% 80% at 100% 0%, rgba(201, 162, 39, 0.18), transparent 55%),
+    linear-gradient(135deg, rgba(26, 39, 68, 0.96), rgba(36, 51, 86, 0.92));
+  color: var(--oil-amber);
+}
+
+.book-download h2 {
+  font-size: clamp(1.25rem, 3vw, 1.6rem);
+  color: var(--white);
+}
+
+.book-download .en-caption {
+  color: rgba(242, 230, 201, 0.7);
+}
+
+.book-series {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  color: var(--temple-gold-soft);
+}
+
+.book-hint {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: rgba(242, 230, 201, 0.85);
+  max-width: 28rem;
+}
+
+.book-download .btn {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  white-space: normal;
+  text-align: left;
+}
+
+.chapter-list,
+.part-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-xl);
+}
+
+.chapter-item h2,
+.part-item h2 {
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  color: var(--temple-deep);
+}
+
+.chapter-item p,
+.part-item p {
+  margin-top: var(--space-sm);
+  color: var(--ink-muted);
+  max-width: 42rem;
+}
+
+.source-note {
+  margin: var(--space-lg) 0;
+  padding: var(--space-md);
+  border-left: 3px solid var(--temple-gold);
+  background: rgba(201, 162, 39, 0.1);
+  color: var(--ink-muted);
+  max-width: 44rem;
+}
+
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: var(--space-xl);
+}

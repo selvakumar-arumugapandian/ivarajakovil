@@ -192,6 +192,17 @@ button {
   border-color: var(--temple-gold);
 }
 
+.btn-outline {
+  background: transparent;
+  color: var(--temple-deep);
+  border-color: rgba(26, 39, 68, 0.28);
+}
+
+.btn-outline:hover {
+  border-color: var(--temple-gold);
+  background: rgba(201, 162, 39, 0.12);
+}
+
 .btn-group {
   display: flex;
   flex-wrap: wrap;
