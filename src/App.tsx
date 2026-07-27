@@ -1,8 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { Home } from "./pages/Home";
-import { History } from "./pages/History";
-import { Story } from "./pages/Story";
+import { Varalaru } from "./pages/Varalaru";
 import { Villupaattu } from "./pages/Villupaattu";
 import { Events } from "./pages/Events";
 import { Gallery } from "./pages/Gallery";
@@ -14,8 +13,9 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="history" element={<History />} />
-          <Route path="story" element={<Story />} />
+          <Route path="varalaru" element={<Varalaru />} />
+          <Route path="story" element={<Navigate to="/varalaru" replace />} />
+          <Route path="history" element={<Navigate to="/varalaru" replace />} />
           <Route path="villupaattu" element={<Villupaattu />} />
           <Route path="events" element={<Events />} />
           <Route path="gallery" element={<Gallery />} />

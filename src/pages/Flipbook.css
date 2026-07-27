@@ -1,4 +1,4 @@
-.story-page .source-note {
+.flipbook-wrap .source-note {
   margin: 0 0 var(--space-lg);
   padding: var(--space-md);
   border-left: 3px solid var(--temple-gold);
@@ -156,6 +156,29 @@
 
 .flipbook-page p:last-child {
   margin-bottom: 0;
+}
+
+.flipbook-verse {
+  max-width: 40rem;
+}
+
+.flipbook-verse p {
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--ink);
+  max-width: none;
+}
+
+.flipbook-verse .verse-gap {
+  height: 0.9rem;
+}
+
+.flipbook-verse .is-meter {
+  margin: 0.85rem 0 0.55rem;
+  color: var(--kumkum);
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .flipbook-nav {

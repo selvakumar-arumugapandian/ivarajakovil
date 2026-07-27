@@ -21,16 +21,6 @@ export function Contact() {
               <dt>முகவரி</dt>
               <dd>{contact.addressTa}</dd>
 
-              <dt>தொலைபேசி</dt>
-              <dd>
-                <a href={`tel:${contact.phone.replace(/\s/g, "")}`}>{contact.phone}</a>
-              </dd>
-
-              <dt>மின்னஞ்சல்</dt>
-              <dd>
-                <a href={`mailto:${contact.email}`}>{contact.email}</a>
-              </dd>
-
               <dt>வரைபடம்</dt>
               <dd>
                 <a href={contact.mapLink} target="_blank" rel="noreferrer">

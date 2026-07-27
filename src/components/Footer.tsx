@@ -14,14 +14,6 @@ export function Footer() {
         </div>
 
         <div className="footer-meta">
-          <div>{temple.contact.addressTa}</div>
-          <div>
-            <a href={`tel:${temple.contact.phone.replace(/\s/g, "")}`}>
-              {temple.contact.phone}
-            </a>
-            <br />
-            <a href={`mailto:${temple.contact.email}`}>{temple.contact.email}</a>
-          </div>
           <div>
             <a href={temple.contact.mapLink} target="_blank" rel="noreferrer">
               வரைபடத்தில் காண்க
@@ -33,7 +25,17 @@ export function Footer() {
         </div>
 
         <div className="footer-bottom">
-          © {year} {temple.nameTa}
+          <div>© {year} {temple.nameTa}</div>
+          <div className="footer-credit">
+            Website design by{" "}
+            <a
+              href="https://www.pranaveshintelligence.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pranavesh Intelligence Solutions Private Limited
+            </a>
+          </div>
         </div>
       </div>
     </footer>

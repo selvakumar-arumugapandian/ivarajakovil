@@ -5,8 +5,7 @@ import "./Header.css";
 
 const links = [
   { to: "/", label: "முகப்பு", end: true },
-  { to: "/history", label: "வரலாறு" },
-  { to: "/story", label: "கதை" },
+  { to: "/varalaru", label: "வரலாறு" },
   { to: "/villupaattu", label: "வில்லுப்பாட்டு" },
   { to: "/events", label: "நிகழ்வுகள்" },
   { to: "/gallery", label: "புகைப்படங்கள்" },
@@ -43,15 +42,18 @@ export function Header() {
           className="brand-link"
           aria-label={temple.nameTa}
         >
-          <img
-            className="brand-mark"
-            src="/images/deity-icon.png"
-            alt=""
-            width={40}
-            height={40}
-          />
+          <span className="brand-mark-wrap" aria-hidden="true">
+            <img
+              className="brand-mark"
+              src="/images/deity-icon.png"
+              alt=""
+              width={48}
+              height={48}
+            />
+          </span>
           <span className="brand-text">
-            <span className="brand-ta">ஐவராஜா திருக்கோயில்</span>
+            <span className="brand-ta-main">அருள்மிகு ஸ்ரீ ஐவராஜா</span>
+            <span className="brand-ta-sub">திருக்கோயில்</span>
           </span>
         </NavLink>
 

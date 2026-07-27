@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import story from "../content/story.json";
 import { BookDownload } from "../components/BookDownload";
-import "./Story.css";
+import "./Flipbook.css";
 import "../components/BookDownload.css";
 
-export function Story() {
+export function Varalaru() {
   const chapters = story.chapters;
   const [index, setIndex] = useState(0);
   const [flipClass, setFlipClass] = useState("");
@@ -51,14 +51,14 @@ export function Story() {
         </div>
       </header>
 
-      <div className="page-body story-page">
+      <div className="page-body flipbook-wrap">
         <div className="page-body-inner">
           <BookDownload book={story.book} />
 
           <p className="source-note">{story.sourceNoteTa}</p>
 
           <div className="flipbook">
-            <aside className="flipbook-toc" aria-label="கதைத் தலைப்புகள்">
+            <aside className="flipbook-toc" aria-label="வரலாற்றுத் தலைப்புகள்">
               <h2 className="flipbook-toc-title">தலைப்புகள்</h2>
               <ol className="flipbook-toc-list">
                 {chapters.map((item, i) => (
@@ -128,9 +128,6 @@ export function Story() {
           <div className="related-links">
             <Link className="btn btn-outline" to="/villupaattu">
               வில்லுப்பாட்டு
-            </Link>
-            <Link className="btn btn-outline" to="/history">
-              கோயில் வரலாறு
             </Link>
           </div>
         </div>

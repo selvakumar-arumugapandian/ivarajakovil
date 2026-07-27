@@ -10,7 +10,7 @@
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 }
 
 .footer-brand h2 {
@@ -19,14 +19,16 @@
 }
 
 .footer-place {
-  margin-top: var(--space-sm);
+  margin: 0.45rem 0 0;
   color: rgba(242, 230, 201, 0.85);
+  max-width: 40rem;
+  line-height: 1.55;
 }
 
 .footer-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-md) var(--space-xl);
+  gap: var(--space-sm) var(--space-xl);
   font-size: 0.95rem;
 }
 
@@ -45,4 +47,21 @@
   border-top: 1px solid rgba(201, 162, 39, 0.2);
   font-size: 0.85rem;
   color: rgba(242, 230, 201, 0.55);
+  display: grid;
+  gap: 0.35rem;
+}
+
+.footer-credit {
+  font-size: 0.8rem;
+  color: rgba(242, 230, 201, 0.45);
+}
+
+.footer-credit a {
+  color: rgba(242, 230, 201, 0.72);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-credit a:hover {
+  color: var(--temple-gold-soft);
 }

@@ -13,7 +13,7 @@ export function BookDownload({ book }: { book: BookInfo }) {
       <div className="book-download-text">
         <h2>{book.titleTa}</h2>
         {book.seriesTa ? <p className="book-series">{book.seriesTa}</p> : null}
-        <p className="book-hint">முழுக் கதையும் வில்லுப்பாட்டும் அடங்கிய மூல நூல்</p>
+        <p className="book-hint">முழு வரலாறும் வில்லுப்பாட்டும் அடங்கிய மூல நூல்</p>
       </div>
       <a
         className="btn btn-primary"
