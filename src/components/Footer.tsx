@@ -23,10 +23,10 @@ export function Footer() {
           <div>
             <Link to="/contact">தொடர்பு</Link>
           </div>
-          <VisitorCount />
         </div>
 
         <div className="footer-bottom">
+          <VisitorCount />
           <div>© {year} {temple.nameTa}</div>
           <div className="footer-credit">
             Website design by{" "}

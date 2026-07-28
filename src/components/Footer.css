@@ -33,16 +33,6 @@
   font-size: 0.95rem;
 }
 
-.footer-visitors {
-  color: rgba(242, 230, 201, 0.75);
-}
-
-.footer-visitors strong {
-  color: var(--temple-gold-soft);
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-}
-
 .footer-meta a {
   color: var(--temple-gold-soft);
   text-decoration: underline;
@@ -59,7 +49,32 @@
   font-size: 0.85rem;
   color: rgba(242, 230, 201, 0.55);
   display: grid;
-  gap: 0.35rem;
+  gap: 0.55rem;
+}
+
+.footer-visitors {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0.45rem 0.85rem;
+  width: fit-content;
+  border: 1px solid rgba(201, 162, 39, 0.4);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.1);
+  color: rgba(242, 230, 201, 0.95);
+  font-size: 0.95rem;
+}
+
+.footer-visitors-label {
+  font-weight: 600;
+}
+
+.footer-visitors-count {
+  color: var(--temple-gold-soft);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
 }
 
 .footer-credit {

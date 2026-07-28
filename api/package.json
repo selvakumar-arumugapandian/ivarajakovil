@@ -1,0 +1,8 @@
+{
+  "name": "ivarajakovil-api",
+  "version": "1.0.0",
+  "description": "Same-origin visitor counter proxy for the temple site",
+  "engines": {
+    "node": ">=18"
+  }
+}
