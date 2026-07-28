@@ -7,6 +7,13 @@ type Photo = (typeof galleryData.photos)[number];
 
 export function Gallery() {
   const [active, setActive] = useState<Photo | null>(null);
+  const videos = galleryData.videos.filter((video) => Boolean(video.url?.trim()));
+  const pageTitle =
+    videos.length > 0 ? galleryData.titleTa : "புகைப்படங்கள்";
+  const pageLead =
+    videos.length > 0
+      ? galleryData.subtitleTa
+      : "திருக்கோயில் தரிசனங்களும் திருவிழா நினைவுகளும்";
 
   useEffect(() => {
     if (!active) return;
@@ -25,8 +32,8 @@ export function Gallery() {
     <>
       <header className="page-banner">
         <div className="section-inner">
-          <h1>{galleryData.titleTa}</h1>
-          <p className="lead">{galleryData.subtitleTa}</p>
+          <h1>{pageTitle}</h1>
+          <p className="lead">{pageLead}</p>
         </div>
       </header>
 
@@ -50,17 +57,19 @@ export function Gallery() {
             ))}
           </Reveal>
 
-          <div className="video-block">
-            <h2 className="group-label">காணொளிகள்</h2>
-            {galleryData.videos.map((video) => (
-              <Reveal key={video.id}>
-                <h3 style={{ marginTop: "1rem", color: "var(--temple-deep)" }}>
-                  {video.titleTa}
-                </h3>
-                <p className="note-banner" style={{ marginTop: "0.75rem" }}>
-                  {video.noteTa}
-                </p>
-                {video.url ? (
+          {videos.length > 0 ? (
+            <div className="video-block">
+              <h2 className="group-label">காணொளிகள்</h2>
+              {videos.map((video) => (
+                <Reveal key={video.id}>
+                  <h3 style={{ marginTop: "1rem", color: "var(--temple-deep)" }}>
+                    {video.titleTa}
+                  </h3>
+                  {video.noteTa ? (
+                    <p className="note-banner" style={{ marginTop: "0.75rem" }}>
+                      {video.noteTa}
+                    </p>
+                  ) : null}
                   <div className="video-frame">
                     <iframe
                       src={video.url}
@@ -69,10 +78,10 @@ export function Gallery() {
                       allowFullScreen
                     />
                   </div>
-                ) : null}
-              </Reveal>
-            ))}
-          </div>
+                </Reveal>
+              ))}
+            </div>
+          ) : null}
         </div>
       </div>
 

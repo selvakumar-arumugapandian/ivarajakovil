@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import temple from "../content/temple.json";
 import { Reveal } from "../components/Reveal";
 import { TempleMap } from "../components/TempleMap";
@@ -11,7 +12,7 @@ export function Contact() {
       <header className="page-banner">
         <div className="section-inner">
           <h1>தொடர்பு</h1>
-          <p className="lead">முகவரி · வரைபடம் · வருகை</p>
+          <p className="lead">முகவரி · வரைபடம் · வழிகாட்டி</p>
         </div>
       </header>
 
@@ -25,11 +26,37 @@ export function Contact() {
               </div>
 
               <div>
-                <dt>வரைபடம்</dt>
+                <dt>பகுதி</dt>
+                <dd>{contact.areaTa}</dd>
+              </div>
+
+              <div>
+                <dt>வருகை</dt>
                 <dd>
-                  <a href={contact.mapLink} target="_blank" rel="noreferrer">
-                    Google Maps-இல் திறக்க
+                  {contact.visitNoteTa}{" "}
+                  <Link to="/events">நிகழ்வுகள் →</Link>
+                </dd>
+              </div>
+
+              <div>
+                <dt>வழிகாட்டி</dt>
+                <dd>
+                  <p className="contact-hint">
+                    உங்கள் இடத்திலிருந்து வழிகாட்டலை Google Maps திறக்கும்.
+                  </p>
+                  <a
+                    className="btn btn-primary contact-directions"
+                    href={contact.directionsLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    வழிகாட்டலைத் திற
                   </a>
+                  <p className="contact-map-alt">
+                    <a href={contact.mapLink} target="_blank" rel="noreferrer">
+                      வரைபடத்தில் இடத்தைக் காண
+                    </a>
+                  </p>
                 </dd>
               </div>
             </dl>

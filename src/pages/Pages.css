@@ -225,6 +225,26 @@
   text-underline-offset: 3px;
 }
 
+.contact-details a.btn {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contact-hint {
+  margin: 0 0 0.85rem;
+  max-width: 28rem;
+}
+
+.contact-directions {
+  display: inline-flex;
+  margin-top: 0.15rem;
+}
+
+.contact-map-alt {
+  margin: 0.85rem 0 0;
+  font-size: 0.95rem;
+}
+
 .temple-map {
   position: relative;
   min-height: 22rem;

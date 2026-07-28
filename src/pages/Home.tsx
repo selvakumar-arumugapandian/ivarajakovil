@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 import temple from "../content/temple.json";
 import { Reveal } from "../components/Reveal";
 import {
-  GREGORIAN_MONTHS_EN,
   GREGORIAN_MONTHS_TA,
   KADAISI_VELLI_LABEL,
-  WEEKDAYS_EN,
   WEEKDAYS_TA,
   getTamilDateParts,
   getUpcomingKadaisiPoojas,
@@ -153,14 +151,14 @@ export function Home() {
                   <li key={key}>
                     <Link to="/events" className="home-event-card">
                       <time dateTime={key}>
-                        {WEEKDAYS_EN[pooja.getDay()]}, {pooja.getDate()}{" "}
-                        {GREGORIAN_MONTHS_EN[pooja.getMonth()]} {pooja.getFullYear()}
+                        {WEEKDAYS_TA[pooja.getDay()]} · {tamil.monthName}{" "}
+                        {tamil.day}
                       </time>
                       <strong>{KADAISI_VELLI_LABEL}</strong>
                       <p>
-                        {item.monthName} மாதம் · {tamil.monthName} {tamil.day} ·{" "}
-                        {WEEKDAYS_TA[pooja.getDay()]} · {pooja.getDate()}{" "}
-                        {GREGORIAN_MONTHS_TA[pooja.getMonth()]}
+                        {item.monthName} மாதம் · {pooja.getDate()}{" "}
+                        {GREGORIAN_MONTHS_TA[pooja.getMonth()]}{" "}
+                        {pooja.getFullYear()}
                       </p>
                       <span className="home-event-cta">
                         {isToday ? "இன்று · " : ""}
