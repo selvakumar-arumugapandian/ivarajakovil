@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambitious-grass-057681e00.azurestaticapps.net/sitemap.xml

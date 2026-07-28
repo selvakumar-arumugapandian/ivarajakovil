@@ -38,9 +38,19 @@
     }
   ],
   "heroImage": "/images/deity-hero.png",
+  "siteUrl": "https://ambitious-grass-057681e00.azurestaticapps.net",
+  "seo": {
+    "titleEn": "Ivaraja Temple | Arulmigu Sri Ivaraja Thirukovil | Thippanampatti, Tenkasi",
+    "titleTa": "அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில் | திப்பனம்பட்டி, தென்காசி",
+    "descriptionEn": "Official website of Arulmigu Sri Ivaraja Temple (ஐவராஜா திருக்கோயில்) at Saluvan Murugavelpatti, Thippanampatti, Pavoorchatram, Tenkasi. History, Villupaattu, festival calendar and temple darshan.",
+    "descriptionTa": "அருள்மிகு ஸ்ரீ ஐவராஜா திருக்கோயில் அதிகார வலைத்தளம் — சாலுவன் முருகவேல்பட்டி, திப்பனம்பட்டி, பாவூர்ச்சத்திரம், தென்காசி. வரலாறு, வில்லுப்பாட்டு, கடைசி வெள்ளி, திருவிழா நினைவுகள்.",
+    "keywords": "Ivaraja Temple, Ivaraja Kovil, Ivaraja Thirukovil, ஐவராஜா, ஐவராஜா திருக்கோயில், அருள்மிகு ஸ்ரீ ஐவராஜா, Thippanampatti temple, Tippanampatti, Pavoorchatram, Tenkasi temple, Saluvan Murugavelpatti, Aivar Raja, Villupaattu, கடைசி வெள்ளி"
+  },
   "contact": {
     "addressTa": "சாலுவன் முருகவேல்பட்டி, திப்பனம்பட்டி, பாவூர்ச்சத்திரம், தென்காசி மாவட்டம், தமிழ்நாடு",
-    "mapEmbedUrl": "https://maps.google.com/maps?q=Thippanampatti+Pavoorchatram+Tenkasi&output=embed",
-    "mapLink": "https://maps.google.com/?q=Thippanampatti+Pavoorchatram+Tenkasi"
+    "lat": 8.90006511680102,
+    "lng": 77.37878461346116,
+    "mapEmbedUrl": "https://maps.google.com/maps?q=8.90006511680102,77.37878461346116&z=18&hl=ta&output=embed",
+    "mapLink": "https://www.google.com/maps?q=8.90006511680102,77.37878461346116&z=18"
   }
 }

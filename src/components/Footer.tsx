@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import temple from "../content/temple.json";
+import { VisitorCount } from "./VisitorCount";
 import "./Footer.css";
 
 export function Footer() {
@@ -22,6 +23,7 @@ export function Footer() {
           <div>
             <Link to="/contact">தொடர்பு</Link>
           </div>
+          <VisitorCount />
         </div>
 
         <div className="footer-bottom">

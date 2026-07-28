@@ -225,12 +225,83 @@
   text-underline-offset: 3px;
 }
 
+.temple-map {
+  position: relative;
+  min-height: 22rem;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid rgba(26, 39, 68, 0.15);
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 45%, rgba(201, 162, 39, 0.12), transparent 65%),
+    linear-gradient(165deg, #e8eef5 0%, #d5dde8 100%);
+}
+
+.temple-map-shell {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  gap: 0.55rem;
+  justify-items: center;
+  padding: 1.25rem;
+  text-align: center;
+  color: var(--temple-deep);
+  transition: opacity 0.35s var(--ease-out);
+}
+
+.temple-map.is-ready .temple-map-shell {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.temple-map-pin {
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50% 50% 50% 0;
+  background: var(--kumkum);
+  transform: rotate(-45deg);
+  box-shadow: 0 4px 12px rgba(185, 28, 28, 0.35);
+}
+
+.temple-map-shell p {
+  margin: 0.35rem 0 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.temple-map-shell a {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--kumkum);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .map-embed {
+  position: relative;
+  z-index: 0;
+  display: block;
   width: 100%;
   min-height: 22rem;
+  height: 22rem;
   border: 0;
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(26, 39, 68, 0.15);
+  opacity: 0;
+  transition: opacity 0.35s var(--ease-out);
+}
+
+.temple-map.is-ready .map-embed {
+  opacity: 1;
+}
+
+@media (min-width: 800px) {
+  .temple-map,
+  .map-embed {
+    min-height: 26rem;
+    height: 26rem;
+  }
 }
 
 .lightbox {

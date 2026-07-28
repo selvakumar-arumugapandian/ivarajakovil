@@ -28,8 +28,19 @@
 .footer-meta {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--space-sm) var(--space-xl);
   font-size: 0.95rem;
+}
+
+.footer-visitors {
+  color: rgba(242, 230, 201, 0.75);
+}
+
+.footer-visitors strong {
+  color: var(--temple-gold-soft);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
 }
 
 .footer-meta a {

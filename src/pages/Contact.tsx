@@ -1,5 +1,6 @@
 import temple from "../content/temple.json";
 import { Reveal } from "../components/Reveal";
+import { TempleMap } from "../components/TempleMap";
 import "./Pages.css";
 
 export function Contact() {
@@ -27,22 +28,15 @@ export function Contact() {
                 <dt>வரைபடம்</dt>
                 <dd>
                   <a href={contact.mapLink} target="_blank" rel="noreferrer">
-                    வரைபடத்தில் திறக்க
+                    Google Maps-இல் திறக்க
                   </a>
                 </dd>
               </div>
             </dl>
           </Reveal>
 
-          <Reveal>
-            <iframe
-              className="map-embed"
-              title="திப்பனம்பட்டி வரைபடம்"
-              src={contact.mapEmbedUrl}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </Reveal>
+          {/* Not wrapped in Reveal — map should start loading immediately */}
+          <TempleMap />
         </div>
       </div>
     </>

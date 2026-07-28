@@ -6,7 +6,9 @@
       "/images/*",
       "/books/*",
       "/videos/*",
-      "/*.{css,js,ico,png,jpg,jpeg,webp,svg,woff,woff2,pdf}"
+      "/robots.txt",
+      "/sitemap.xml",
+      "/*.{css,js,ico,png,jpg,jpeg,webp,svg,woff,woff2,pdf,txt,xml}"
     ]
   },
   "globalHeaders": {
